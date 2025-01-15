@@ -12,7 +12,7 @@ improvements, but not as signicant as the previous one.
    <img src="/images/sparse.png" width="450" height="100">
   
 </figure>
-</br>
+
 <figure>
     <figcaption>Test with a dense graph</figcaption>
    <img src="/images/dense.png" width="450" height="100">
