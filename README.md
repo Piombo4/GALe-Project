@@ -6,6 +6,12 @@ spanners for unweighted graphs.
 For both of the algorithms, a sequential and a parallel version were implemented.
 For the ESTCluster a signicant speedup was noticed. For UnweightedSpanner there were
 improvements, but not as signicant as the previous one.
+## Results
+
+![Sparse Graph!](/images/sparse.jpg)
+![Dense Graph!](/images/dense.jpg)
+
+All the values are in microseconds
 ## Usage 
 The code was originally run on Windows 11 by firstly building the executable using:</br></br>
 `g++ -fopenmp main.cpp -o program`</br></br>
@@ -14,3 +20,4 @@ And running it by calling:</br></br>
 <stretch_factor> -t <n_threads> -a <execution_type: 1..5>`</br></br>
 By using the Makefile provided it’s possible to build the program and execute the same in
 the same way as shown above. By default, the executable will be called “project”
+
