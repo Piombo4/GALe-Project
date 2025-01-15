@@ -7,9 +7,15 @@ For both of the algorithms, a sequential and a parallel version were implemented
 For the ESTCluster a signicant speedup was noticed. For UnweightedSpanner there were
 improvements, but not as signicant as the previous one.
 ## Results
-
-![Sparse Graph!](/images/sparse.png)
-![Dense Graph!](/images/dense.png)
+<figure>
+   <img src="/images/sparse.png" width="200" height="100">
+    <figcaption>Sparse graph</figcaption>
+</figure>
+</br>
+<figure>
+   <img src="/images/dense" width="200" height="100">
+    <figcaption>Dense graph</figcaption>
+</figure>
 
 All the values are in microseconds
 ## Usage 
