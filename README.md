@@ -8,13 +8,16 @@ For the ESTCluster a signicant speedup was noticed. For UnweightedSpanner there 
 improvements, but not as signicant as the previous one.
 ## Results
 <figure>
+   <figcaption>Sparse graph</figcaption>
    <img src="/images/sparse.png" width="450" height="100">
-    <figcaption>Sparse graph</figcaption>
+  
 </figure>
 </br>
+</br>
 <figure>
-   <img src="/images/dense.png" width="450" height="100">
     <figcaption>Dense graph</figcaption>
+   <img src="/images/dense.png" width="450" height="100">
+   
 </figure>
 
 All the values are in microseconds
