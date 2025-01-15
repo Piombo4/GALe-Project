@@ -8,7 +8,7 @@ For the ESTCluster a signicant speedup was noticed. For UnweightedSpanner there 
 improvements, but not as signicant as the previous one.
 ## Usage 
 The code was originally run on Windows 11 by firstly building the executable using:</br></br>
-`g++ -fopenmp main.cpp -o program`</br>
+`g++ -fopenmp main.cpp -o program`</br></br>
 And running it by calling:</br></br>
 `./programName -n <num_vertices> -p <edge_probability> -w <max_weight> -k
 <stretch_factor> -t <n_threads> -a <execution_type: 1..5>`</br></br>
