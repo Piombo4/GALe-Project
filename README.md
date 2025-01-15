@@ -1,4 +1,4 @@
-#Graph Algorithms Project
+# Graph Algorithms Project
 ## Introduction 
 This repo presents the implementation of a graph decomposition routine called
 “ESTCluser” and its use for “UnweightedSpanner”, an algorithm to build
